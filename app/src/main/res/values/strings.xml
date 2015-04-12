@@ -3,4 +3,17 @@
 
 	<string name="hello_world">Hello world!</string>
 	<string name="action_settings">Settings</string>
+	<string name="convert_from_text">Convert From</string>
+	<string name="tsp_text_view">1.0 teaspoon</string>
+	<string name="cup_text_view">.0208 cup</string>
+	<string name="tbs_text_view">.3333 tbs</string>
+	<string name="oz_text_view">.1666 oz</string>
+	<string name="kg_text_view">.0057 kg</string>
+	<string name="quart_text_view">.0052 quart</string>
+	<string name="gallon_text_view">.0013 gallon</string>
+	<string name="pound_text_view">.0125 pound</string>
+	<string name="ml_text_view">4.9289 ml</string>
+	<string name="liter_text_view">.0049</string>
+	<string name="mg_text_view">5687.5000 mg</string>
+	<string name="pint_text_view">.0104 pint</string>
 </resources>

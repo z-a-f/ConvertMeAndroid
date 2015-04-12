@@ -9,8 +9,138 @@
                 tools:context=".MainActivity">
 
 	<TextView
-		android:text="@string/hello_world"
+		android:text="@string/convert_from_text"
 		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"/>
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_marginRight="20dp"
+		android:id="@+id/textView"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:inputType="numberDecimal"
+		android:id="@+id/amount_text_view"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"
+		android:text="1.0"/>
+
+	<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/unit_types_spinner"
+		android:layout_below="@+id/amount_text_view"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"/>
+
+	<GridLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/unit_types_spinner"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:padding="15dp"
+		android:columnCount="2"
+		android:rowCount="6"
+		android:orientation="horizontal"
+		android:background="#ffced6ff">
+
+		<TextView
+			android:id="@+id/tsp_text_view"
+		    android:text="@string/tsp_text_view"
+		    android:textAppearance="?android:textAppearanceMedium"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="start|top"
+		    android:layout_marginRight="30dp"
+		    android:layout_marginEnd="30dp"
+		    android:layout_marginBottom="30dp"/>
+		<TextView
+			android:id="@+id/cup_text_view"
+			android:text="@string/cup_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="start|top"/>
+
+		<TextView
+			android:id="@+id/tbs_text_view"
+			android:text="@string/tbs_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|top"
+			android:layout_marginRight="30dp"
+			android:layout_marginEnd="30dp"
+			android:layout_marginBottom="30dp"/>
+		<TextView
+			android:id="@+id/oz_text_view"
+			android:text="@string/oz_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="start|top"/>
+
+		<TextView
+			android:id="@+id/kg_text_view"
+			android:text="@string/kg_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|top"
+			android:layout_marginRight="30dp"
+			android:layout_marginEnd="30dp"
+			android:layout_marginBottom="30dp"/>
+		<TextView
+			android:id="@+id/quart_text_view"
+			android:text="@string/quart_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="start|top"/>
+
+		<TextView
+			android:id="@+id/gallon_text_view"
+			android:text="@string/gallon_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|top"
+			android:layout_marginRight="30dp"
+			android:layout_marginEnd="30dp"
+			android:layout_marginBottom="30dp"/>
+		<TextView
+			android:id="@+id/pound_text_view"
+			android:text="@string/pound_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="start|top"/>
+
+		<TextView
+			android:id="@+id/ml_text_view"
+			android:text="@string/ml_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|top"
+			android:layout_marginRight="30dp"
+			android:layout_marginEnd="30dp"
+			android:layout_marginBottom="30dp"/>
+		<TextView
+			android:id="@+id/liter_text_view"
+			android:text="@string/liter_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="start|top"/>
+
+		<TextView
+			android:id="@+id/mg_text_view"
+			android:text="@string/mg_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="start|top"
+			android:layout_marginRight="30dp"
+			android:layout_marginEnd="30dp"
+			android:layout_marginBottom="30dp"/>
+		<TextView
+			android:id="@+id/pint_text_view"
+			android:text="@string/pint_text_view"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="start|top"/>
+	</GridLayout>
 
 </RelativeLayout>
