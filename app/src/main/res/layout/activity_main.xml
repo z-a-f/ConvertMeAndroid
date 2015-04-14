@@ -18,14 +18,14 @@
 		android:id="@+id/textView"/>
 
 	<EditText
-		android:layout_width="wrap_content"
+		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:inputType="numberDecimal"
 		android:id="@+id/amount_text_view"
-		android:layout_alignParentTop="true"
-		android:layout_alignParentRight="true"
-		android:layout_alignParentEnd="true"
-		android:text="1.0"/>
+		android:text="1.0"
+		android:layout_toRightOf="@+id/textView"
+		android:layout_toEndOf="@+id/textView"
+		android:gravity="right"/>
 
 	<Spinner
 		android:layout_width="match_parent"
